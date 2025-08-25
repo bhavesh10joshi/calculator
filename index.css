@@ -1,0 +1,130 @@
+*
+{
+    background-color:black;
+}
+.topbarparent
+{
+    display: flex;
+    height: 1.5rem;
+}
+.timedisplayparent
+{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    margin-right: 67rem;
+}
+.dateparent
+{
+    display: flex;
+}
+.time
+{
+    margin-left: 1rem;
+    margin-right: 2rem;
+    display: flex;
+}
+.month{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.networkdisplayparent
+{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+.networkdisplay
+{
+    margin-right: 1rem;   
+}
+.wifi
+{
+    width:1.1rem;
+}
+.batteryparent
+{
+    display: flex;
+}
+.b{
+    width:1.5rem;
+}
+.bicon{
+    padding-left: 0.5rem;
+    margin-top: -0.15rem;
+}
+.operationparent
+{ 
+    margin-top: 4rem;
+    font-size: 2rem;
+    color:grey;
+}
+.resultscreenparent
+{
+    text-align: left;
+    font-size: 7rem;
+    color: aliceblue;
+}
+.screenparent {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-end;    
+    padding-right: 1rem;      
+    font-style:normal;
+    font-weight:bolder;
+}
+.buttonsparent
+{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  width: 17rem;
+  height: 5.5rem;
+  margin: 8px;
+  border: none;
+  border-radius: 7rem;   
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-num {
+  background-color: #333;   
+  color: white;
+}
+
+.btn-num:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-func {
+  background-color: #a5a5a5;
+  color: black;
+}
+
+.btn-func:hover {
+  background-color: #bcbcbc;
+}
+
+.btn-op {
+  background-color: #ff9500;
+  color: white;
+}
+
+.btn-op:hover {
+  background-color: #e0d800;
+  color: #444;
+}

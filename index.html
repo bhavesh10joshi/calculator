@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class = "bodyparent">
+        <div class="topbarparent">
+            <div class="timedisplayparent">
+                <div class="time" id = "time">
+                    9:56 Am
+                </div>
+                <div class="dateparent">
+                    <div class="day" id="day">
+                        Thursday
+                    </div>
+                    <div class = "month" id="month">
+                        August
+                    </div>
+                    <div class = "date" id = "date">
+                        21
+                    </div>
+                </div>
+            </div>
+            <div class="networkdisplayparent">
+                <div class = "networkdisplay">
+                    <img src="./wifi.png" alt="wifi" class="wifi">
+                </div>
+                <div class = "batteryparent">
+                    <div class="bpercent">
+                        100%
+                    </div>
+                    <div class="bicon">
+                        <img src="./b.png" alt="battery" class="b">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="screenparent">
+            <div class="operationparent" id="opeparent">
+                       0 
+            </div>
+            <div class="resultscreenparent" id="resultscreenparent">
+                    0000
+            </div>
+        </div>
+        <div class = "buttonsparent">
+            <div class="row">
+                <div class = "7btn">
+                    <button type="button" onclick="" class="btn-num">7</button>
+                </div>
+                <div class = "8btn"><button type="button" onclick="btn8clicked()" class="btn-num">8</button></div>
+                <div class = "9btn"><button type="button" onclick="btn9clicked()" class="btn-num">9</button></div>
+                <div class = "ACbtn"><button type="button" onclick="ACbtnclicked()" class="btn-op">AC</button></div>
+                <div class = "backbtn"><button type="button" onclick="backbtnclicked()" class="btn-op">⌫</button></div>
+            </div>
+            <div class="row">
+                <div class = "4btn"><button type="button" onclick="btn4clicked()" class="btn-num">4</button></div>
+                <div class = "5btn"><button type="button" onclick="btn5clicked()" class="btn-num">5</button></div>
+                <div class = "6btn"><button type="button" onclick="btn6clicked()" class="btn-num">6</button></div>
+                <div class = "devidebtn"><button type="button" onclick="devidebtnclicked()" class="btn-op">÷</button></div>
+                <div class = "multibtn"><button type="button" onclick="multibtnclicked()" class="btn-op">x</button></div>
+            </div>
+            <div class="row">
+                <div class = "1btn"><button type="button" onclick="btn1clicked()" class="btn-num">1</button></div>
+                <div class = "2btn"><button type="button" onclick="btn2clicked()" class="btn-num">2</button></div>
+                <div class = "3btn"><button type="button" onclick="btn3clicked()" class="btn-num">3</button></div>
+                <div class = "percentbtn"><button type="button" onclick="percentbtnclicked()" class="btn-op">%</button></div>
+                <div class = "minusbtn"><button type="button" onclick="minusbtnclicked()" class="btn-op">-</button></div>
+            </div>
+            <div class="row">
+                <div class = "0btn"><button type="button" onclick="btn0clicked()" class="btn-num">0</button></div>
+                <div class = ".btn"><button type="button" onclick="dotbtnclicked()" class="btn-num">.</button></div>
+                <div class = "plusbtn"><button type="button" onclick="plusbtnclicked()" class="btn-op">+</button></div>
+                <div class = "equalbtn"><button type="button" onclick="equalbtnclicked()" class="btn-op">=</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="time"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
