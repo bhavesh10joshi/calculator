@@ -24,7 +24,8 @@ This project demonstrates **DOM manipulation**, **JavaScript functions**, and **
 ---
 
 ## 📸 Screenshots
-(Add screenshot of your calculator UI here)
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/c2ede369-12da-4868-89b4-ed22377e3816" />
+
 
 ---
 
